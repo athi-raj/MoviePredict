@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+# *.pkl  # Commented out to allow model files
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# React/Vite
+src/dist/
+frontend/dist/
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+
+# Docker
+*.pid
+*.sock
+
+# Test/coverage
+coverage/
+*.cover
+*.py,cover
+
+# Misc
+*.bak
+*.tmp
+*.old
+
+# Render/Deployment
+.render.yaml
+
+# Ignore local data
+*.sqlite3
+*.db
+
+# Ignore package lock files (optional, if you want to force fresh installs)
+# package-lock.json
+# yarn.lock
