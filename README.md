@@ -12,7 +12,7 @@ A full-stack web application that predicts whether a movie will be a HIT or FLOP
 
 ## 🚀 Live Demo
 
-[Add your deployed URL here]
+[Website](https://movie-predictor-sj91.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -41,36 +41,8 @@ A full-stack web application that predicts whether a movie will be a HIT or FLOP
 - Python 3.8+
 - Git
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/movie-success-predictor.git
-cd movie-success-predictor
-```
 
-### Frontend Setup
-```bash
-# Install dependencies
-npm install
 
-# Start development server
-npm run dev
-```
-
-### Backend Setup
-```bash
-# Navigate to backend directory
-cd backend
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Start the Flask server
-python app.py
-```
-
-The application will be available at:
-- Frontend: http://localhost:8080
-- Backend API: http://localhost:5000
 
 ## 🎯 Usage
 
@@ -107,60 +79,13 @@ The prediction model uses the following features:
 ## 🚀 Deployment
 
 ### Frontend Deployment (Vercel/Netlify)
-```bash
-# Build the frontend
-npm run build
 
-# Deploy the dist folder to your preferred platform
-```
 
-### Backend Deployment (Render/Railway)
+### Backend Deployment (Render)
 1. Ensure all model files are in the backend directory
 2. Set environment variables if needed
 3. Deploy using the platform's Python template
 
-### Environment Variables
-```env
-FLASK_ENV=production
-PORT=5000
-```
-
-## 📁 Project Structure
-
-```
-movie-success-predictor/
-├── src/                    # React frontend source
-│   ├── components/         # React components
-│   ├── data/              # Data services
-│   ├── pages/             # Page components
-│   └── ui/                # UI components
-├── backend/               # Flask backend
-│   ├── app.py            # Main Flask application
-│   ├── saved_model.pkl   # Trained ML model
-│   ├── *.joblib          # Success rate data
-│   └── requirements.txt  # Python dependencies
-├── public/               # Static assets
-│   └── final_tmdb_cleaned.csv  # Movie dataset
-└── package.json          # Node.js dependencies
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **TMDB** for the movie dataset
-- **scikit-learn** for the machine learning framework
-- **React** and **Flask** communities for excellent documentation
 
 ## 📞 Contact
 
